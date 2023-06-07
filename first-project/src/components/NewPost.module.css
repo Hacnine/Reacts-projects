@@ -13,3 +13,9 @@
     color: #eadbfb;
     font-weight: bold;
 }
+
+.form input,
+.form textarea{
+    display: block;
+    width: 100%;
+}
