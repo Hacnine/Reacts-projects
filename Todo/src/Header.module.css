@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.header{
+    background-color: royalblue;
+    height: 50px;
+    font-size: 2rem;
+    color: wheat;
+    padding: 20px;
+}
+.todoform{
+    padding: 10px;
+}
+
+.todoinput{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px;
+}
+
+.todobutton{
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    height: 35px;
+    font-size: 1.2em;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+}
+
+.todoitem{
+    margin:auto;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.todoname{
+
+}
+
+.delelebutton{
+    border: none;
+    height: 35px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+}
+
