@@ -1,5 +1,8 @@
 import classes from '../Header.module.css';
+<<<<<<< HEAD
 import shortid from 'shortid';
+=======
+>>>>>>> 1149adda5a5fec8918ffc5ec9b635c70402146eb
 
 export default function Form({todo, setTodo, todoList, setTodoList}){
     function handleChange(event){
@@ -9,7 +12,11 @@ export default function Form({todo, setTodo, todoList, setTodoList}){
 
     function handleSubmit(event){
         event.preventDefault();
+<<<<<<< HEAD
         setTodoList([...todoList, {name: todo, id:shortid.generate()}]);
+=======
+        setTodoList([...todoList, todo]);
+>>>>>>> 1149adda5a5fec8918ffc5ec9b635c70402146eb
         console.log(todoList);
     }
 

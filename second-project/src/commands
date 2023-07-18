@@ -1,0 +1,5 @@
+npx create-react-project Todo App
+npm start
+ cd Todo
+  npm install
+  npm run dev

@@ -45,7 +45,11 @@ body{
 
 }
 
+<<<<<<< HEAD
 .deletebtn{
+=======
+.delelebutton{
+>>>>>>> 1149adda5a5fec8918ffc5ec9b635c70402146eb
     border: none;
     height: 35px;
     background-color: tomato;
